@@ -8,13 +8,15 @@
     	 	<meta property="og:title" content="Congress Votes on SOPA on January 24th" />
 	  <meta property="og:description" content="Stop SOPA! Get your
 favorite site to go on strike." />
-	  <meta property="og:image" content="http://americancensorship.org/images/firewall-of-america-logo.png" />
-	  <meta property="og:url" content="http://americancensorship.org/meet" />
+	  <meta property="og:image" content="http://sopastrike.com/images/firewall-of-america-logo.png" />
+	  <meta property="og:url" content="http://sopastrike.com/meet" />
 	  <meta property="og:type" content="article" />
 	  <meta property="fb:admins" content="christianbryan, stickwithjosh"/>
 	  <meta property="fb:page_id" content="283481148338685" />
 	
     <script>
+
+/*
         var states = {
           "AL": "107",
           "AK": "106",
@@ -68,6 +70,8 @@ favorite site to go on strike." />
           "WI": "57"
         }
 
+*/
+
 
 
       function getUrlVars()
@@ -89,7 +93,7 @@ favorite site to go on strike." />
           var state = getUrlVars()["state"].toUpperCase();
           //var option = $("option[value='" + state + "']")[0];
           //if (option) { option.selected = true; }
-          var href = "http://my.americancensorship.org"
+          var href = "http://my.sopastrike.com"
           if (state in states) {
             href = href + "/discussion/" + states[state];
           }
@@ -159,19 +163,6 @@ form#callin input {display: inline; width: 150px; text-align: center;}
 	    </script>
 	<div id="top-priority" class="primary-actions">
 
-	  <!--
-    <div class="thecodez" id="thecodez-heavy">
-      <div class="thecodez-container">
-        <div class="closecodez">CLOSE</div>
-        <p class="bebas">Copy and paste the code below into your<br />website or blog to help get the message out</p>
-        <p class="explanation">iFrame:</p>
-        <textarea><iframe src="http://americancensorship.org/callwidget" width="588" height="625" border="0"></iframe></textarea>
-        <p class="explanation">Modal:</p>
-        <textarea><script src="http://americancensorship.org/modal/call-client.js"></script></textarea>
-        <p class="learn">A project of internet and democracy groups | <a href="http://americancensorship.org">americancensorship.org</a></p>
-      </div>
-    </div>
-    -->
 		<div class="wrap" style="width: 100%;">
 			<h2 style="width: 800px; margin: 0 auto;
 	margin-top: 20px;">Get your favorite website to go on strike</h2>
@@ -193,7 +184,7 @@ form#callin input {display: inline; width: 150px; text-align: center;}
 			<form action="http://act.fightforthefuture.org/page/s/stop-sopa-strike" method="POST" id="callin">
 				<input type="hidden"
 				name="redirect_to"
-				value="http://americancensorship.org/meet-your-senators/thanks.html"
+				value="http://sopastrike.com/meet-your-senators/thanks.html"
 				/>
 	                        <input type="text" name="fullname" title="Name"  class="default-text" required>
 				<input type="email" name="email"
@@ -217,7 +208,7 @@ form#callin input {display: inline; width: 150px; text-align: center;}
 	</div><!-- kill .primary-actions -->
 	
 	<script type="text/javascript">
-	var _sf_async_config={uid:30346,domain:"americancensorship.org"};
+	var _sf_async_config={uid:30346,domain:"sopastrike.com"};
 	(function(){
 	  function loadChartbeat() {
 	    window._sf_endpt=(new Date()).getTime();
